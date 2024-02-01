@@ -53,6 +53,10 @@ body {
     font-size: 28px;
     font-weight: 800;
     color: var(--cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .content__card__images {
     display: flex;
@@ -62,4 +66,7 @@ body {
 }
 .border__content__card {
     background-color: var(--bg-color);
+}
+button:hover {
+    animation: 2s ease-out var(--green-neon);
 }
